@@ -380,4 +380,4 @@ Para entrar en el grupo de desarrollo del bot pedir la entrada a [@skneos](https
 _If you are using /join service for first time you have to send it 11 time ( Bot is spam reported )_
 
 
-Nuestro canal > [@BotsTelegramES](https://telegram.me/MaSkAoS)
+Nuestro canal > [@BotsTelegramES](https://telegram.me/BotsTelegramES)
