@@ -374,9 +374,10 @@ then start the bot again
 # Support and development
 
 Do not contact **us** In private for support.
-Join our bot development group by sending `/join PROXIMAMENTE` to [@MaSkAoS](https://telegram.me/MaSkAoS)
+
+Para entrar en el grupo de desarrollo del bot pedir la entrada a [@skneos](https://telegram.me/skneos)
 
 _If you are using /join service for first time you have to send it 11 time ( Bot is spam reported )_
 
 
-Our cahnnel > [@Proximamente](https://telegram.me/MaSkAoS)
+Nuestro canal > [@BotsTelegramES](https://telegram.me/MaSkAoS)
