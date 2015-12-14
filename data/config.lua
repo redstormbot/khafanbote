@@ -15,7 +15,6 @@ do local _ = {
     "broadcast",
     "download_media",
     "invite",
-    "kickall",
     "meme",
     "plugins",
     "greeter",
