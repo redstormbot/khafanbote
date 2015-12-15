@@ -335,7 +335,7 @@ savelog(msg.to.id, name.." ["..msg.from.id.."] requested member list ")
 local receiver = get_receiver(msg)
 chat_info(receiver, returnidsfile, {receiver=receiver})
 	end
-if matches[1] == 'wholist' and is_momod(msg) then
+if matches[1] == 'ids' and is_momod(msg) then
 local name = user_print_name(msg.from)
 savelog(msg.to.id, name.." ["..msg.from.id.."] requested member list in a file")
 local receiver = get_receiver(msg)
@@ -455,7 +455,7 @@ return {
         "^[!/](lock) (%d+) (.*)$",
     "^[!/](unlock) (%d+) (.*)$",
     "^[!/](setting) (%d+)$",
-        "^[!/](wholist)$",
+        "^[!/](ids)$",
         "^[!/](who)$",
     "^[!/](addadmin) (.*)$", -- sudoers only
     "^[!/](removeadmin) (.*)$", -- sudoers only
