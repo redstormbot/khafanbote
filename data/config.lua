@@ -30,10 +30,10 @@ do local _ = {
     data = "data/moderation.json"
   },
   realm = {
-    48473345
+    IDDELGRUPO
   },
   sudo_users = {
-    76660884
+    TUIDE
   }
 }
 return _
