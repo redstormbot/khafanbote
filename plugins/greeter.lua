@@ -104,8 +104,8 @@ local function run(msg, matches)
       welcome_message(msg, new_member)
     elseif matches[1] == "chat_add_user_link" then
       welcome_message(msg, new_member)
-   -- elseif matches[1] == "chat_del_user" then
-     -- return 'Hasta luegooooorrr '..new_member..'!'
+    elseif matches[1] == "chat_del_user" then
+      return 'Aqui la despedida '..new_member..'!'
     end
   end
 
