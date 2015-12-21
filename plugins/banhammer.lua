@@ -1,4 +1,3 @@
-
 local function pre_process(msg)
   -- SERVICE MESSAGE
   if msg.action and msg.action.type then
@@ -293,6 +292,15 @@ local function run(msg, matches)
 end
 
 return {
+    description = "Plugin to manage bans, kicks and lists.",
+  usage = {
+    "!ban user <user_id>: Kick user from chat and kicks it if joins chat again",
+    "!unban <user_id>: Unban user",
+    "!banall <user_id>: Ban all grups to manage",
+    "!banlist : Banlist users_ids",
+    "!Id: Show id group",
+    "!kick <user_id> Kick user from chat group"
+  },
   patterns = {
     "^[!/]([Bb]anall) (.*)$",
     "^[!/]([Bb]anall)$",
