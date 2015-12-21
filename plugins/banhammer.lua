@@ -297,7 +297,8 @@ return {
     "!ban user <user_id>: Kick user from chat and kicks it if joins chat again",
     "!unban <user_id>: Unban user",
     "!banall <user_id>: Ban all grups to manage",
-    "!banlist : Banlist users_ids",
+    "!unbanall <user_id>: Delete ban all groups to manage",
+    "!banlist : Show txt banlist users and ids",
     "!Id: Show id group",
     "!kick <user_id> Kick user from chat group"
   },
