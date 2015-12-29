@@ -3,7 +3,7 @@ do local _ = {
   disabled_channels = {},
   enabled_plugins = {
     "onservice",
-    "arabic_lock.lua"
+    "arabic_lock.lua",
     "inrealm",
     "ingroup",
     "inpm",
