@@ -1,4 +1,5 @@
-do local _ = {
+do 
+  local _ = {
   about_text = "TestBot DBT v1\nAn advance Administration bot based on yagop/telegram-bot \n\nhttps://github.com/Desarrollo-Bots-Telegram-ES/TestBot.git\n\nAdmins\n@MaSkAoS\n@skneos\n@Thef7HD",
   disabled_channels = {},
   enabled_plugins = {
