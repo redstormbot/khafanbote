@@ -205,7 +205,7 @@ function create_config( )
   config = {
     enabled_plugins = {
     "onservice",
-    "plugins",
+    "arabic_lock.lua",
     "inrealm",
     "ingroup",
     "inpm",
@@ -213,13 +213,19 @@ function create_config( )
     "stats",
     "anti_spam",
     "owners",
-    "arabic_lock",
     "set",
     "get",
     "broadcast",
     "download_media",
     "invite",
-    "all"
+    "meme",
+    "plugins",
+    "greeter",
+    "all",
+    "google",
+    "gif",
+    "img",
+    "help"
     },
     sudo_users = {TUIDEAQUI,tonumber(our_id)},--Sudo users
     disabled_channels = {},
