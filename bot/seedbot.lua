@@ -205,7 +205,7 @@ function create_config( )
   config = {
     enabled_plugins = {
     "onservice",
-    "arabic_lock.lua",
+    "arabic_lock",
     "inrealm",
     "ingroup",
     "inpm",
