@@ -4,7 +4,7 @@ do
   disabled_channels = {},
   enabled_plugins = {
     "onservice",
-    "arabic_lock.lua",
+    "arabic_lock",
     "inrealm",
     "ingroup",
     "inpm",
