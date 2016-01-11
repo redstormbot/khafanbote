@@ -105,7 +105,7 @@ local function run(msg, matches)
     elseif matches[1] == "chat_add_user_link" then
       welcome_message(msg, new_member)
     elseif matches[1] == "chat_del_user" then
-      return 'Aqui la despedida '..new_member..'!'
+      return 'Vuelve Pronto '..new_member..'!'
     end
   end
 
