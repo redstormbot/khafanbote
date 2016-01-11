@@ -1,3 +1,5 @@
+--Tag ppl with username and a msg after it
+--Thanks to @shayansoft for this idea
 local function tagall(cb_extra, success, result)
     local receiver = cb_extra.receiver
     local chat_id = "chat#id"..result.id
@@ -12,8 +14,8 @@ local function tagall(cb_extra, success, result)
 end
 local function run(msg, matches)
     local receiver = get_receiver(msg)
-	if not is_mod(msg) then 
-		return "For mods only !"
+	if not is_owner(msg) then 
+		return "For owner only !"
 	end
 	if matches[1] then
 		chat_info(receiver, tagall, {receiver = receiver,msg_text = matches[1]})
@@ -25,10 +27,10 @@ end
 return {
   description = "Will tag all ppl with a msg.",
   usage = {
-    "!tagall [msg]."
+    "/tagall [msg]."
   },
   patterns = {
-    "^!tagall +(.+)$"
+    "^[!/]tagall +(.+)$"
   },
   run = run
 }
