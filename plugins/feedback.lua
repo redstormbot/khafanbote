@@ -17,7 +17,7 @@ do
  end
  return {
   
-  description = "Feedback",
+  description = "Feedback message",
  
   usage = "!feedback message",
   patterns = {
