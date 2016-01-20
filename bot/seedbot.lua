@@ -227,7 +227,7 @@ function create_config( )
     "img",
     "help"
     },
-    sudo_users = {TUIDEAQUI,tonumber(our_id)},--Sudo users
+    sudo_users = {139837032,107746299(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
